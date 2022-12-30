@@ -1,0 +1,78 @@
+
+a {
+    text-decoration: none;
+}
+
+header,main,footer {
+    width: 1250px;
+    margin:0,auto;  
+}
+
+header{
+    height: 180px;
+    background-color: #fee8dd;
+}
+/*modify the style of header's font in all page*/
+h1{
+    font-family: Tahoma, sans-serif;
+    font-size: 90px;
+    color: #d53743;
+    text-align: center;
+    line-height: 180px;
+}
+
+.nav{
+    height: 50px;
+    background-color: #fef5f0;
+    margin-top: -15px;
+    width: 1210px;
+     
+}
+
+li{
+    list-style-type:none;
+}
+
+.nav li{
+    list-style-type:none;
+    float: left;
+    line-height: 50px; 
+    width: 300px;
+    text-align: center;
+   
+   
+}
+/*modify the style of nav's font in all page*/
+.nav a{
+    font-size: 18px;
+    color:#d53743   
+}
+
+footer{
+    height: 105px;
+    background-color: #fee8dd;
+}
+
+.footerright{
+    float: left;
+    width: 600px;
+    text-align: center;
+   
+}
+/*modify the style of gooter's font in all page*/
+.footerright a{
+    font-size: 12px;
+    color: #d53743
+  
+}
+
+.footerleft{
+    float: left;
+    width: 600px;
+    text-align: center;
+    padding-top: 5px;  
+}
+.footerleft p{
+    color: #d53743;
+    font-size: 12px;
+}
